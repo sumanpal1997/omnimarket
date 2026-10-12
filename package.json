@@ -1,0 +1,19 @@
+{
+  "name": "omnimarket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OmniMarket — Production-Grade Multi-Vendor E-Commerce Marketplace (Full-Stack Monorepo)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumanpal1997/omnimarket.git"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build Output
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage and Testing
+coverage/
+.nyc_output/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
